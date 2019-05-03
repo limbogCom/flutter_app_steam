@@ -30,7 +30,7 @@ class _ProductProPageState extends State<ProductProPage> {
     fnCountBloc = BlocProvider.of(context);
 
     return RaisedButton(
-      child: const Text('Add'),
+      child: const Text('Pro'),
       color: Theme.of(context).accentColor,
       elevation: 4.0,
       splashColor: Colors.blueGrey,
